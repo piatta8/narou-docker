@@ -3,15 +3,13 @@
 Narou.rb を Docker で実行するための Docker Image です。<br>
 Docker さえあれば一切環境構築なしで Narou.rb WEB UI を立ち上げることができます。
 
-Narou.rb 作者製です。<br>
-最新バージョンへの追随は本体とほぼ同時に行う予定です。
+Narou.rb 作者製のdockerfileをforkしてカスタマイズしています。
 
 イメージ内容は下記で構成されます。
 
 - Alpine Linux
-- Ruby 2.7
+- Ruby 3.0
 - [改造版AozoraEpub3](https://github.com/kyukyunyorituryo/AozoraEpub3)
-- kindlegen 2.9
 
 # 使い方（docker コマンド編)
 
