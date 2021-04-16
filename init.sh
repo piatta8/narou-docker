@@ -17,7 +17,7 @@ if [ ! -e /novel/.narou ]; then
   } | tee .narousetting/server_setting.yaml
 
   narou s convert.no-open=true
-  narou s device=kindle
+  narou s device=epub
 fi
 
 exec "$@"

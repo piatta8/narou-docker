@@ -25,7 +25,7 @@ RUN set -x \
  && narou init -p /aozoraepub3 -l 1.8 \
  && rm -rf /temp
 
-COPY kindlegen /aozoraepub3
+# COPY kindlegen /aozoraepub3
 
 WORKDIR /novel
 
